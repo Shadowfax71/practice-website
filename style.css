@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-awesome {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-self: flex-end;
+    border: 2em;
+    gap: 10px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
