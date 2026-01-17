@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="header">
-        <img rel="logo" src="images/logo.png" alt="The company logo, consisting of chicken over some rice, and a side of salad" width="100px" height="100px">
+        <img rel="logo" src="images/logo.png" alt="The company logo, consisting of chicken over some rice, and a side of salad" width="100" height="100">
         <div class="header-links">
             <ul>
                 <li><a href="#">Header link one</a></li>
@@ -16,19 +16,38 @@
                 <li><a href="#">Header link three</a></li>
             </ul>
         </div>
-        <span class="header-awesome">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-            <button>Sign up</button>
-            <img rel="fries" src="images/fries.jpg" alt="Some crispy looking french fries" width="400px">
-        </span>
+        <div class="header-awesome">
+            <div class="awesome-text">
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                <button>Sign up</button>
+            </div>
+            <div class="fries-image">
+                <img rel="fries" src="images/fries.jpg" alt="Some crispy looking french fries" width="400">
+            </div>
+        </div>
     </div>
     <div class="main">
-        Some random information.
-        <div class="main-images"><figure>
-            <img rel="pasta" src="images/pasta.jpg" alt="Some tasty looking pasta" width="150px"> 
-            <figcaption>Try out our delicious pasta, easy to make at home</figcaption>
-        </figure>
+        <div class="main-text"> 
+            Some random information.
+        </div>
+        <div class="main-images">
+            <figure class="image">
+                <img rel="pasta" src="images/pasta.jpg" alt="Some tasty looking pasta" width="150"> 
+                    <figcaption>Try out our delicious pasta, easy to make at home</figcaption>
+            </figure>
+            <figure class="image">
+                <img rel="pizza" class="cropped-pizza" src="images/pizza.jpg" alt="A tasty looking pepperoni pizza" width="150">
+                    <figcaption>Learn how to make your own pepperoni pizza, you'll never order out again</figcaption>
+            </figure>
+            <figure class="image">
+                <img rel="burger" class="cropped-burger" src="images/burger.jpg" alt="A cheeseburger with ground beef" width="150">
+                <figcaption>A homemade cheeseburger that will make every other burger look store bought</figcaption>
+            </figure>
+            <figure class="image">
+                <img rel="hotdog" src="images/hotdog.jpg" alt="Some New York-style hotdogs with onions, mustard and homemade tomato sauce" width="150" height="120">
+                <figcaption>Here's how to make delicious hotdogs that everyone will love, perfect for watching sports with friends</figcaption>
+            </figure>
         </div>
     </div>
 </body>

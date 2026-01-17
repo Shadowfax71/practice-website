@@ -1,38 +1,112 @@
-.header {
-    display: flex;
-    background-color: #1F2937;
-    color: white;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.header-awesome {
-    width: 100%;
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 100px 40px 100px;
+}
+
+.header-awesome {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
 
 ul {
     display: flex;
     list-style-type: none;
     justify-self: flex-end;
     border: 2em;
-    gap: 10px;
+    gap: 20px;
 }
 
 .header-links {
     display: flex;
     justify-content: flex-end;
     align-content: center;
+    padding-right: 20px;
 }
-
 
 .main {
     display: flex;
     flex-wrap: wrap;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.awesome-text {
+    max-width: 400px;
+}
+
+.fries-image {
+    max-width: 100%;
+}
+
+.cropped-pizza {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cropped-burger {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main-images {
+    display: flex;
+    max-width: 250px;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.image {
+    text-align: center;
+}
