@@ -65,6 +65,8 @@ button {
     height: 120px;
     object-fit: cover;
     object-position: center;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
 }
 
 .cropped-burger {
@@ -72,6 +74,8 @@ button {
     height: 120px;
     object-fit: cover;
     object-position: bottom;
+    border-radius: 5px;
+    border: 2px solid #3882F6;
 }
 
 main {
@@ -96,17 +100,43 @@ h1 {
 }
 
 p {
+    display: flex;
     font-size: 18px;
     color: #E5E7EB;
 }
 
 .main-images {
     display: flex;
-    max-width: 250px;
     padding-top: 10px;
-    gap: 20px;
+    gap: 50px;
+    margin: 0 auto;
 }
 
 .image {
     text-align: center;
+    width: 150px;
+}
+
+.rounded {
+    border-radius: 5px;
+    border: 2px solid #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 100px 40px 100px;
+}
+.thorquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.thorname{
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
 }
