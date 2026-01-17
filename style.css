@@ -124,10 +124,7 @@ p {
 
 .quote {
     background-color: #E5E7EB;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 20px 100px 40px 100px;
+    padding: 50px 500px 80px 500px;
 }
 .thorquote {
     font-size: 36px;
@@ -135,8 +132,11 @@ p {
     font-weight: 300;
 }
 
-.thorname{
+.thorname {
     color: #1F2937;
     display: flex;
-    justify-content: flex-end;
+    justify-self: flex-end;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
 }
